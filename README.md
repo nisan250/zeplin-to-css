@@ -7,3 +7,4 @@ Using flexbox for responsive layouts and responsive components.
 <br>
 
 <img src="video-chart-375.png" >
+<img src="video-chart-375.png" >
