@@ -3,9 +3,6 @@
 .is-mobile {
     display: flex;
 }
-.is-not-mobile {
-    display: none;
-}
 /* helpers */
 .inner-width {
     max-width: 350px;
@@ -67,6 +64,7 @@ aside, .extras, .featured__text-content, .menu--main-menu, .featured,
     color: #ffffff;
     padding: 10px;
     margin: auto;
+    padding: 0 64px;
 }
 /* .post-video {
     width: 350px;

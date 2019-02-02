@@ -2,10 +2,6 @@
 .is-mobile {
     display: none;
 }
-.is-not-mobile {
-    display: flex;
-}
-
 
 /* helpers */
 
