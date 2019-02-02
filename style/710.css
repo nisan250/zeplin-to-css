@@ -90,6 +90,7 @@ aside, .extras, .featured__text-content, .menu--main-menu, .featured,
     flex-direction: column;
     width: 335px;
     height: auto;
+    margin: 0 auto 28px auto;
 }
 .post-video__image {
     width: 100%;
