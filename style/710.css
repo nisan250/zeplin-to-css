@@ -33,13 +33,13 @@ aside, .extras, .featured__text-content, .menu--main-menu, .featured,
 }
 @media (min-resolution: 192dpi) {
     .header > div {
-        background-image: url("../images/mobile-header/md-chart-all-mobile@2x.png");
+        background-image: url("../images/mobile-header/md-chart-all-mobile-x2.png");
         height: 120px;
     }
 }
 @media (min-resolution: 286dpi) {
     .header > div {
-        background-image: url("../images/mobile-header/md-chart-all-mobile@3x.png");
+        background-image: url("../images/mobile-header/md-chart-all-mobile-x3.png");
         height: 120px;
     }
 }

@@ -130,12 +130,12 @@ margin: 0;
 }
 @media (min-resolution: 192dpi) {
     .featured {
-        background-image: url("../images/featured/md-chart-all-desktop@2x.png");
+        background-image: url("../images/featured/md-chart-all-desktop-x2.png");
     }
 }
 @media (min-resolution: 286dpi) {
     .featured {
-        background-image: url("../images/featured/md-chart-all-desktop@3x.png");
+        background-image: url("../images/featured/md-chart-all-desktop-x3.png");
     }
 }
 .featured__title {
