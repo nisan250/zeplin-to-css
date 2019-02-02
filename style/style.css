@@ -127,6 +127,9 @@ margin: 0;
     background-image: url("../images/featured/md-chart-all-desktop.png");
     height: 250px;
     display: flex;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 @media (min-resolution: 192dpi) {
     .featured {

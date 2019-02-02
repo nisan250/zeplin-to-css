@@ -29,6 +29,9 @@ aside, .extras, .featured__text-content, .menu--main-menu, .featured,
 }
 .header > div {
     background-image: url("../images/mobile-header/md-chart-all-mobile.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 120px;
 }
 @media (min-resolution: 192dpi) {
