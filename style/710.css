@@ -31,6 +31,18 @@ aside, .extras, .featured__text-content, .menu--main-menu, .featured,
     background-image: url("../images/mobile-header/md-chart-all-mobile.png");
     height: 120px;
 }
+@media (min-resolution: 192dpi) {
+    .header > div {
+        background-image: url("../images/mobile-header/md-chart-all-mobile@2x.png");
+        height: 120px;
+    }
+}
+@media (min-resolution: 286dpi) {
+    .header > div {
+        background-image: url("../images/mobile-header/md-chart-all-mobile@3x.png");
+        height: 120px;
+    }
+}
 
 .app-title {
     margin: 10px 0 0 10px;

@@ -10,11 +10,6 @@
     font-family: AbhayaLibre-extra-bold;
     src: url(../fonts/AbhayaLibre-ExtraBold.ttf);
 }  
-/* @font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat.woff);
-} */
-
 
 body {
 margin: 0;
@@ -129,9 +124,19 @@ margin: 0;
 /*  ---------------  */
 /* featured */
 .featured {
-    background-image: url("../images/md-chart-all-desktop-copy-2.png");
+    background-image: url("../images/featured/md-chart-all-desktop.png");
     height: 250px;
     display: flex;
+}
+@media (min-resolution: 192dpi) {
+    .featured {
+        background-image: url("../images/featured/md-chart-all-desktop@2x.png");
+    }
+}
+@media (min-resolution: 286dpi) {
+    .featured {
+        background-image: url("../images/featured/md-chart-all-desktop@3x.png");
+    }
 }
 .featured__title {
     font-family: AbhayaLibre-bold;
