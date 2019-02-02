@@ -31,3 +31,6 @@ aside.vertical-flex {
     overflow-x: scroll;
     padding-bottom: 10px;
 }
+.terms {
+    padding: 0px 50px;
+}
