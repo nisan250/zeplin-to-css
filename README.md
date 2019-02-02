@@ -6,4 +6,4 @@ Using flexbox for responsive layouts and responsive components.
 ![](video-chart-375.png)
 <br>
 
-<img src="images/github-small.png" >
+<img src="video-chart-375.png" >
