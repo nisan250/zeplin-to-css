@@ -1,0 +1,140 @@
+
+/* is mobile */
+.is-mobile {
+    display: flex;
+}
+.is-not-mobile {
+    display: none;
+}
+/* helpers */
+.inner-width {
+    max-width: 350px;
+}
+
+
+/* none visible */
+.advertising {
+    display: none;
+}
+
+aside, .extras, .featured__text-content, .menu--main-menu, .featured,
+.app-title--small, .menu--sub-menu, .terms {
+    display: none !important;
+}
+
+
+/* different style */
+.header {
+    box-shadow: none;
+    height: 120px;
+    background-color: transparent;
+    position: static;
+}
+.header > div {
+    background-image: url("../images/mobile-header/md-chart-all-mobile.png");
+    height: 120px;
+}
+
+.app-title {
+    margin: 10px 0 0 10px;
+    position: absolute;
+}
+.app-title__text {
+    font-family: AbhayaLibre;
+    font-size: 16.3px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.03;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 0 0 0 10px;
+}
+.app-title__ampersand {
+    font-size: 10px;
+}
+.app-title__logo {
+    height: 16px;
+    width: 16px;
+}
+
+.featured-mobile {
+    font-family: AbhayaLibre;
+    font-size: 29.5px;
+    font-weight: bold;
+    line-height: 0.87;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin: auto;
+}
+/* .post-video {
+    width: 350px;
+    overflow: hidden;
+} */
+
+.copyright {
+    text-align: center;
+    color: #aaa;
+}
+
+/* 
+.post-video {
+    flex-direction: column;
+    height: auto;
+} */
+
+
+
+
+/* --post-video--mobile-- */
+.post-video--mobile {
+    flex-direction: column;
+    width: 335px;
+    height: auto;
+}
+.post-video__image {
+    width: 100%;
+}
+.post-video--mobile .post-video__read-more {
+    display: none;
+}
+.post-video--mobile .post-video__video-content {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+}
+.post-video--mobile .post-video__order-action {
+    margin: auto 0;
+    width: 88px;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.post-video--mobile  .post-video__video-content-wrapper {
+    display: none;
+}
+.post-video--mobile .post-video__video-content-mobile-wrapper {
+    display: flex;
+    margin: 7px 7px;
+}
+.post-video--mobile .post-video__read-more-mobile {
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #ff6a56;
+    text-decoration: none;
+    margin: auto 0;
+}
+.post-video--mobile .post-video__title {
+    /* margin: 0 7px; */
+}
+
+.footer {
+    margin-top: 10px;
+    padding: 40px 0px;
+    padding: 0;
+}

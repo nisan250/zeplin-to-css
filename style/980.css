@@ -1,0 +1,37 @@
+/* is mobile */
+.is-mobile {
+    display: none;
+}
+.is-not-mobile {
+    display: flex;
+}
+
+
+/* helpers */
+
+.inner-width {
+    max-width: 680px;
+}
+
+/* vertical */
+.main-content.horizontal-flex {
+    flex-direction: column;
+}
+
+aside.vertical-flex {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* changed style */
+.advertising {
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.menu--filter-buttons  {
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
